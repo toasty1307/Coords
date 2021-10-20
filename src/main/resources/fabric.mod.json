@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "coords",
+  "version": "${version}",
+  "name": "Coords",
+  "description": "idk",
+  "authors": [
+    "toasty"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "toasty.coords.Coords"
+    ]
+  },
+  "mixins": [
+    "coords.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
