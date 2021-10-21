@@ -10,6 +10,9 @@
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "toasty.coords.CoordsClient"
+    ],
     "main": [
       "toasty.coords.Coords"
     ]
